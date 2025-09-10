@@ -13,7 +13,7 @@ class Courrier(ABC):
 
         if not (mode_expedition in ["Rapide", "Normal"]):
             raise Exception("Le mode d'expédition est Rapide ou Normal")
-    
+
     @abstractmethod
     def __str__(self):
         pass

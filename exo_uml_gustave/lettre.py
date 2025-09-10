@@ -21,7 +21,7 @@ class Lettre(Courrier):
             + self.format
 
         )
-        
+
     def calcul_affranchissement(self):
         if self.format == "A4":
             tarif_base = 2.5
